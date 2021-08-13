@@ -23,7 +23,12 @@ function gameObject() {
             }
         }
     }
+    debugger;
     return objBall;
 }
 
-console.log(gameObject());
+// console.log(gameObject());
+
+function numPointsScored(name) {
+
+}
