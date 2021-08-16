@@ -29,6 +29,17 @@ function gameObject() {
 
 // console.log(gameObject());
 
-function numPointsScored(name) {
-
+function numPointsScored(playerName) {
+    const allPlayers = grabBothTeams ()
+    return allPlayers[playerName].points
 }
+
+function grabObjBall (o) {
+    const 
+}
+
+function grabBothTeams (){
+    const game = gameObject() 
+    const allPlayers = Object.assign({}, game.home.players, game.away.players)
+    return allPlayers
+  }
